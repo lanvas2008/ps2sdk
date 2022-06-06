@@ -43,3 +43,4 @@ jobs:
         with:
           name: ps2sdk-samples-${{ matrix.debug }}-${{ steps.slug.outputs.sha8 }}
           path: ~/samples
+          
